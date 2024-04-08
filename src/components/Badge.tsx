@@ -52,7 +52,7 @@ export const Badge = (props: Props) => {
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
-        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
+        style={{ 'font-weight': 'bold', color: 'white' }} //props.poweredByTextColor ?? defaultTextColor
       >
         <span> Zytech AI</span>
       </a>
